@@ -26,7 +26,7 @@ function Header() {
 
     return (
         <>
-            <section>
+            <section className="card-section">
                 <div className="container">
                     <div className="card-wrapper">
 
@@ -35,7 +35,7 @@ function Header() {
                                 <div className="card" key={item.id}>
 
                                     <div className="card-top">
-                                        <img src={item?.flags.svg} alt="flag" width={'400px'} height={'200px'}/>
+                                        <img src={item?.flags.svg} alt="flag" width={'400px'} height={'200px'} />
                                     </div>
 
                                     <div className="card-hero">
